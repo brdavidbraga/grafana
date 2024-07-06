@@ -67,6 +67,7 @@ spec:
           persistentVolumeClaim:
             claimName: grafana-pvc
 ---
+/*
 apiVersion: v1
 kind: Service
 metadata:
@@ -80,3 +81,4 @@ spec:
     app: grafana
   sessionAffinity: None
   type: LoadBalancer
+  */
