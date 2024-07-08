@@ -79,5 +79,5 @@ spec:
   selector:
     app: grafana
   sessionAffinity: None
-#  type: LoadBalancer
-  type: NodePort
+  type: LoadBalancer
+#  type: NodePort
